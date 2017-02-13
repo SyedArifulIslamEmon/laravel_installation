@@ -1,0 +1,11 @@
+Download the project as zip file.
+Extract it to your desired destination
+Open Command prompt or console to the root directory of the project
+Run this command php artisan config:cache
+make sure to configure database on .env and config/database.php file
+Now run, php artisan migrate , this will migrate required tables for you
+Run php artisan db:seed to seed pre-defined data which containes login information
+See your admin username and password from database/seed/UserTableSeeder.php
+Make sure your root folder, storatge, bootstrap folder has read write permission.
+Now to run the local server run, php artisan serve
+While publishing on the net, set your public directory as the domain root directory
